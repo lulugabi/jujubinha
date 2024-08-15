@@ -8,16 +8,14 @@
 <body>
     <form action="" method="post">
         <p> digite seu nome</p>
-<input type="text" name="nome" placeholder=" Emanuelli Emidio Almeida">
+<input type="text" name="nome" placeholder=" Emanuelli Emidio Almeida" required>
 <br>
-<input type="email" name="e-mail" value="@gmail.com">
+<input type="email" name="e-mail" value="@gmail.com" required>
 <br>
 <input type="number" name="telefone" placeholder="(xx) xxxxx-xxxx">
 <br>
 <input type="radio" name="work?" value="sim" checked> com certeza
 <input type="radio" name="work?" value="nâo"> sem certeza
-<br>
-<input type="checkbox" name="novidades" checked> Aceita Receber Notificações Sobre a Empresa.
 <br>
 <select name="estado">
     <option value="1">Acre</option>
@@ -25,6 +23,7 @@
     <option value="3">Rio Grande do Sul</option>
     <option value="4">Santa Catarina</option>
 </select>
+<input type="checkbox" name="novidades" checked> Aceita Receber Notificações Sobre a Empresa.
     <br>
 <button type="submit">Enviar</button>
 <button type="reset">Cancelar</button>
